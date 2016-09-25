@@ -1,6 +1,4 @@
-# Z.A.M
-# [Zona.Autónoma.Militarizada]
+# Zona Autonóma Militarizada.EU
 
-Madrid>Tanger>Sebta>Benzú>Tarajal>Príncipe>Zona_Neutra>Corralejos>Boukhalef>Tanger>Madrid>Palermo>Porto_Empedocle>...
+[Creación y documentación audiovisual/sonora/fotográfica sobre fronteras, procesos migratorios y legado post-imperialista en Europa, el Maghreb y los Balcanes.]
 
-www.migueloliveros.org/2016/02/zam-zona-autonoma-militarizada.html
