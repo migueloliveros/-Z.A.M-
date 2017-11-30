@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 176.0, 78.0, 1132.0, 788.0 ],
+		"rect" : [ 111.0, 78.0, 1132.0, 788.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1021,7 +1021,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-47",
-					"int" : 1,
 					"maxclass" : "gswitch",
 					"numinlets" : 3,
 					"numoutlets" : 1,
@@ -1471,7 +1470,7 @@
 					"presentation_linecount" : 4,
 					"presentation_rect" : [ 15.0, 667.0, 198.166672, 60.0 ],
 					"style" : "",
-					"text" : "Created by Gustavo Silveira\nwww.musiconerd.com\ngustavosilveira@musiconerd.com\nDeveloped by Doc_Weka"
+					"text" : "Created by Gustavo Silveira\nwww.musiconerd.com\ngustavosilveira@musiconerd.com\nDeveloped by Dr. Miguel Oliveros"
 				}
 
 			}
@@ -1533,6 +1532,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-12",
+					"int" : 1,
 					"maxclass" : "gswitch",
 					"numinlets" : 3,
 					"numoutlets" : 1,
@@ -2074,9 +2074,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 31.0, 160.0, 52.0, 35.0 ],
+					"patching_rect" : [ 31.0, 160.0, 58.0, 35.0 ],
 					"style" : "",
-					"text" : "dim 80 60"
+					"text" : "dim 1000 940"
 				}
 
 			}
@@ -2301,21 +2301,21 @@
 								"filekind" : "audiofile",
 								"loop" : 1,
 								"content_state" : 								{
-									"quality" : [ "basic" ],
-									"originallength" : [ 0.0, "ticks" ],
-									"formantcorrection" : [ 0 ],
-									"formant" : [ 1.0 ],
 									"play" : [ 0 ],
+									"mode" : [ "basic" ],
+									"originallength" : [ 0.0, "ticks" ],
+									"speed" : [ 1.0 ],
+									"originaltempo" : [ 120.0 ],
+									"pitchshift" : [ 1.0 ],
+									"quality" : [ "basic" ],
+									"basictuning" : [ 440 ],
+									"pitchcorrection" : [ 0 ],
+									"formant" : [ 1.0 ],
 									"followglobaltempo" : [ 0 ],
 									"timestretch" : [ 0 ],
-									"pitchshift" : [ 1.0 ],
-									"mode" : [ "basic" ],
-									"basictuning" : [ 440 ],
 									"originallengthms" : [ 0.0 ],
-									"speed" : [ 1.0 ],
 									"slurtime" : [ 0.0 ],
-									"pitchcorrection" : [ 0 ],
-									"originaltempo" : [ 120.0 ]
+									"formantcorrection" : [ 0 ]
 								}
 
 							}
@@ -4481,16 +4481,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-70" : [ "toggle[1]", "toggle[1]", 0 ],
-			"obj-78" : [ "number[1]", "number[1]", 0 ],
-			"obj-24" : [ "toggle[2]", "toggle[2]", 0 ],
-			"obj-82" : [ "number[2]", "number[2]", 0 ],
 			"obj-15" : [ "toggle[3]", "toggle[3]", 0 ],
-			"obj-40" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-111" : [ "number[3]", "number[3]", 0 ],
-			"obj-67" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-78" : [ "number[1]", "number[1]", 0 ],
 			"obj-61" : [ "toggle", "toggle", 0 ],
-			"obj-63" : [ "number", "number", 0 ]
+			"obj-63" : [ "number", "number", 0 ],
+			"obj-67" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-40" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-82" : [ "number[2]", "number[2]", 0 ],
+			"obj-24" : [ "toggle[2]", "toggle[2]", 0 ],
+			"obj-70" : [ "toggle[1]", "toggle[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
